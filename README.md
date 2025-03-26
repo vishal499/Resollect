@@ -8,6 +8,6 @@ The Portfolio Management System is a web-based application designed to efficient
 -	Tailwind CSS: A utility-first CSS framework for styling
 -	React Hooks: Manages state and side effects effectively
 ### Core Features
-#### 1- Dynamic Loan Management Table
+#### 1. Dynamic Loan Management Table
 -	Displays structured loan details
 -	Efficient pagination (10 records per page)
