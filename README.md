@@ -49,3 +49,11 @@ The Portfolio Management System is a web-based application designed to efficient
 
 ## Conclusion
 The Portfolio Management System offers a robust and scalable solution for managing loan portfolios. Its comprehensive features, user-friendly interface, and modern technology stack provide financial institutions with an efficient way to handle loan data. With a modular architecture and planned enhancements, the system is designed to scale and adapt to future requirements seamlessly.
+
+
+
+![image alt](https://github.com/vishal499/Resollect/blob/9e7bc19eb279d59a5358a95ee1af7fad8a4d8fe6/Screenshot%202025-03-26%20234248.png)
+![image alt](https://github.com/vishal499/Resollect/blob/9e7bc19eb279d59a5358a95ee1af7fad8a4d8fe6/Screenshot%202025-03-26%20234317.png)
+![image alt](https://github.com/vishal499/Resollect/blob/9e7bc19eb279d59a5358a95ee1af7fad8a4d8fe6/Screenshot%202025-03-26%20234404.png)
+![image alt](https://github.com/vishal499/Resollect/blob/9e7bc19eb279d59a5358a95ee1af7fad8a4d8fe6/Screenshot%202025-03-26%20234424.png)
+
