@@ -11,3 +11,29 @@ The Portfolio Management System is a web-based application designed to efficient
 #### 1. Dynamic Loan Management Table
 -	Displays structured loan details
 -	Efficient pagination (10 records per page)
+#### 2. Advanced Filtering System
+-	Loan Details:
+- Loan Type
+-	Borrower and Co-Borrower Details
+-	Loan Amount
+   -	Current DPD (Days Past Due)
+-	Region & State
+#### 3. Data Management Features
+-	Column Management: Allows users to show/hide specific columns
+#### 4. User Interface Components
+-	Header Section:
+-	Search bar
+-	Filter options
+-	Action buttons
+-	Upload feature
+-	Main Content:
+-	Interactive data table
+-	Selectable rows
+-	Record count display
+-	Footer Section:
+-	Pagination controls
+
+## Technical Implementation
+### State Management
+-	Uses React Hooks for handling application state
+-	Implements memoization for efficient state updates
