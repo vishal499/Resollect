@@ -7,3 +7,7 @@ The Portfolio Management System is a web-based application designed to efficient
 -	Material-UI (MUI): Ensures consistent design with pre-built components
 -	Tailwind CSS: A utility-first CSS framework for styling
 -	React Hooks: Manages state and side effects effectively
+### Core Features
+#### 1- Dynamic Loan Management Table
+-	Displays structured loan details
+-	Efficient pagination (10 records per page)
