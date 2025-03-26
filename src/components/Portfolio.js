@@ -26,7 +26,7 @@ function Portfolio({ onUpload }) {
     const [isFiltersActive, setIsFiltersActive] = useState(false);
     const [visibleColumns, setVisibleColumns] = useState(new Set([
         'loanNo', 'loanType', 'borrower', 'borrowerAddress', 'coBorrowerName',
-        'coBorrowerAddress', 'currentDPD', 'sanctionAmount', 'region', 'status'
+        'coBorrowerAddress', 'currentDPD', 'sanctionAmount', 'region', 'State'
     ]));
     const [currentPage, setCurrentPage] = useState(1);
     const entriesPerPage = 10;
@@ -41,14 +41,14 @@ function Portfolio({ onUpload }) {
         { id: 'currentDPD', label: 'Current DPD' },
         { id: 'sanctionAmount', label: 'Sanction Amount' },
         { id: 'region', label: 'Region' },
-        { id: 'status', label: 'Status' }
+        { id: 'State', label: 'State' }
     ];
 
     const filters = [
         { id: 'all', label: 'All' },
         { id: 'preSarfaesi', label: 'Pre Sarfaesi' },
         { id: 'npa', label: 'NPA' },
-        { id: '13(2)', label: '13(2) Responses' },
+        { id: '13(2)', label: 'Responses' },
         { id: 'symbolicPossession', label: 'Symbolic Possession' },
         { id: 'dmOrder', label: 'DM Order' },
         { id: 'physicalPossessions', label: 'Physical Possessions' },
@@ -66,7 +66,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 91,
             sanctionAmount: '₹1934268',
             region: 'West',
-            status: 'U'
+            State: 'U'
         },
         {
             loanNo: 'L2810202',
@@ -78,7 +78,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810203',
@@ -90,7 +90,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810204',
@@ -102,7 +102,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810205',
@@ -114,7 +114,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810206',
@@ -126,7 +126,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         }, {
             loanNo: 'L2810207',
             loanType: 'Car Loan',
@@ -137,7 +137,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810208',
@@ -149,7 +149,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810209',
@@ -161,7 +161,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810210',
@@ -173,7 +173,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810211',
@@ -185,7 +185,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810212',
@@ -197,7 +197,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810213',
@@ -209,7 +209,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810214',
@@ -221,7 +221,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810215',
@@ -233,7 +233,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810216',
@@ -245,7 +245,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810217',
@@ -257,7 +257,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810218',
@@ -269,7 +269,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810219',
@@ -281,7 +281,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
         {
             loanNo: 'L2810220',
@@ -293,7 +293,7 @@ function Portfolio({ onUpload }) {
             currentDPD: 100,
             sanctionAmount: '₹1842143',
             region: 'North',
-            status: 'M'
+            State: 'M'
         },
 
 

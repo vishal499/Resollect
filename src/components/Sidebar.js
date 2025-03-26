@@ -77,8 +77,8 @@ function Sidebar({ onUploadClick }) {
 
       {/* Footer */}
       <div className="flex items-center justify-center border-t pt-4 pb-4">
-        <span className="text-gray-500 text-sm">Powered by</span>
-        <img src={esollectLogo} alt="Esollect Logo" className="w-6 h-6 mx-2" />
+        <span className="text-gray-500 text-sm">Powered by </span>
+        <img src={esollectLogo} alt="Esollect Logo" className="w-6 h-6 ml-1 " />
         <span className="text-blue-900 font-bold">esollect</span>
       </div>
     </div>
