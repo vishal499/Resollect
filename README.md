@@ -39,13 +39,13 @@ The Portfolio Management System is a web-based application designed to efficient
 -	Implements memoization for efficient state updates
 ## Installation & Setup
 ###  Clone the Repository
--	<a href=”https://github.com/vishal499/Resollect.git” >Resollect< /a>
+-	<a href=”https://github.com/vishal499/Resollect.git” >Resollect</a>
 ### Install Dependencies
 ### npm install
 ### Start Development Server
 ### npm start
 ### Access the Application
--	<a href=”http://localhost:3000”>LocalServer< /a>
+-	<a href=”http://localhost:3000”>LocalServer</a>
 
 ## Conclusion
 The Portfolio Management System offers a robust and scalable solution for managing loan portfolios. Its comprehensive features, user-friendly interface, and modern technology stack provide financial institutions with an efficient way to handle loan data. With a modular architecture and planned enhancements, the system is designed to scale and adapt to future requirements seamlessly.
